@@ -1,0 +1,61 @@
+# {{ who }}
+#### {{ address }}
+#### [{{ email }}](mailto:{{ email }}) • [{{ mobile }}](tel:{{ mobile }})
+
+## About me
+
+{% for item in about_me %}
+>  {{ item.part }}
+{% endfor %}
+
+
+## Skills
+
+> {{ hard_skills|join(' • ') }}
+
+> {{ soft_skills|join(' • ') }}
+
+## Technology
+
+Recent
+:   {% for item in recent_technologies %} `{{ item.initials }}`{{ item.name }} &nbsp;{% endfor %}
+
+
+Past
+:   {% for item in past_technologies %} `{{ item.initials }}`{{ item.name }} &nbsp;{% endfor %}
+
+## Experience
+
+{% for item in experience %}
+{{ item.when }}
+:   **{{ item.where }}**; *{{ item.position }}*
+
+    {{ item.summary }}
+
+    `{{ item.technologies|join('` `') }}`
+
+{% endfor %}
+
+## Education
+
+{% for item in education %}
+{{ item.when }}
+:   **{{ item.where }}**
+
+    {{ item.faculty }}
+
+{% endfor %}
+
+## Side projects
+
+{% for item in projects %}
+{{ item.when }}
+:   **{{ item.who }}**
+
+    `{{ item.technologies|join('` `') }}` {{ item.summary }}
+{% endfor %}
+
+<br/>
+
+----
+> I hereby authorize you to process my personal data included in my job application for the needs of the recruitment process (in accordance with the Personnel Protection Act of 29.08.1997 no 133 position 883).

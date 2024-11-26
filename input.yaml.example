@@ -1,0 +1,71 @@
+who: Johny Coder
+address: 221 B Baker St, London, England
+email: johny.coder@bigtech.com
+mobile: +44-4444-444-444
+
+about_me:
+  - part: I'm a software developer an I like to KISS
+
+hard_skills:
+  - code typing
+  - clicking
+  - double clicking
+
+soft_skills:
+  - issue underestimating
+  - work overthinking
+  - listening to the manager
+
+recent_technologies:
+  - name: python
+    initials: PY
+  - name: tensorflow
+    initials: TF
+  - name: jenkins
+    initials: JN
+  - name: AWS
+    initials: AWS
+  - name: flutter
+    initials: FT
+  - name: pocketbase
+    initials: PB
+past_technologies:
+  - name: rust
+    initials: RS
+  - name: Google Cloud
+    initials: GC
+
+experience:
+  - when: 2022 - now
+    where: CloseAI
+    position: Senior Software Engineer
+    summary: Building LLMs replacing programmers for good.
+    technologies:
+      - PY
+      - TF
+      - JN
+      - AWS
+  - when: 2020 - 2022
+    where: ScamCoin
+    position: Software Engineer
+    summary: Fintech project, based on blockchain. Programming in Rust.
+    location:
+      city: London, Athens
+      physical: remote
+    technologies:
+      - RS
+      - PY
+      - GC
+
+education:
+  - when: 2015 - 2020
+    where: MIT
+    faculty: Computer Science, Master’s degree
+
+projects:
+  - when: 2021 - now
+    who: CryptoAdvisor
+    summary: A mobile app advising which crypto not to buy.
+    technologies:
+      - FT
+      - PB
