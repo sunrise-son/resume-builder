@@ -104,7 +104,7 @@ table {
 
 code {
     border: solid white 1px;
-    background: #888888;
+    background: #9CB770;
     color: white;
     padding: 4px;
     font-size: smaller;
@@ -112,5 +112,6 @@ code {
     margin-right: 3px;
     line-height: 26px;
     font-family: monospace;
+    font-weight: bold;
 }
 </style>
